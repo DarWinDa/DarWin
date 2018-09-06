@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc\:mysql\://192.168.20.51\:3306/lmzt?characterEncoding\=utf-8&zeroDateTimeBehavior\=convertToNull
+    username: root
+    password: root@sg
+
+  jap:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    serialization:
+      indent_output: true

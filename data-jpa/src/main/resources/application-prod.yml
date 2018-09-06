@@ -1,0 +1,8 @@
+server:
+  port: 8070
+  servlet:
+    context-path: /projectName
+
+people:
+  age: 17
+  sex: female

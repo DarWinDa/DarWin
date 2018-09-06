@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /projectName
+
+people:
+  age: 18
+  sex: male
+
+spring:
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+
+hello:
+  msg: 666
