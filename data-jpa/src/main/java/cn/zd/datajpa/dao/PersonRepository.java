@@ -19,5 +19,6 @@ public interface PersonRepository extends JpaRepository<Person, Long> {
     @Query("select p from Person p where p.name= :name and p.address= :address")
     Person withNameAndAddressQuery(@Param("name")String name, @Param("address")String address);
 
+    // 使用@NamedQuery查询，请注意我们在实体类中做的@NamedQuery的定义
     Person withNameAndAddressNamedQuery(String name, String address);
 }
